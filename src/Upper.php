@@ -3,14 +3,14 @@
 namespace App;
 
 /**
-     * Quick Upper Test.
+ * Quick Upper Test.
+ */
+class Upper
+{
+    /**
+     * Heading.
+     *
+     * @var string
      */
-    class Upper
-    {
-        /**
-         * Heading.
-         *
-         * @var string
-         */
-        public $heading;
-    }
+    public $heading;
+}

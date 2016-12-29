@@ -3,19 +3,19 @@
 namespace App;
 
 /**
-     * Quick Test.
+ * Quick Test.
+ */
+class Quick extends \App\Upper
+{
+    /**
+     * Constructor.
+     *
+     * @param string $pullIn
      */
-    class Quick extends \App\Upper
-    {
-        /**
-         * Constructor.
-         *
-         * @param string $pullIn
-         */
-        public function __construct($pullIn)
-        {
+    public function __construct($pullIn) {
 
-            /* Set Heading */
-            $this->heading = $pullIn;
-        }
+        /* Set Heading */
+        
+        $this->heading = $pullIn;
     }
+}
