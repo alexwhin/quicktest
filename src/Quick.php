@@ -12,10 +12,11 @@ class Quick extends \App\Upper
      *
      * @param string $pullIn
      */
-    public function __construct($pullIn) {
+    public function __construct($pullIn)
+    {
 
         /* Set Heading */
-        
+
         $this->heading = $pullIn;
     }
 }
