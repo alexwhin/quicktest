@@ -1,14 +1,12 @@
 <?php
 
     /**
-     * Quick Test Case
+     * Quick Test Case.
      */
     class QuickTest extends \PHPUnit_Framework_TestCase
     {
-
-        public function testQuick ()
+        public function testQuick()
         {
-
             $app = new \App\Quick('fromTest');
             $this->assertEquals($app->heading, 'fromTest');
         }
