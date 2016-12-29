@@ -9,7 +9,7 @@
         public function testQuick ()
         {
 
-            $test = new \App\Quick('fromTest');
-            $this->assertEquals($test->heading, 'fromTest');
+            $app = new \App\Quick('fromTest');
+            $this->assertEquals($app->heading, 'fromTest');
         }
     }
