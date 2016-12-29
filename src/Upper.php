@@ -1,15 +1,15 @@
 <?php
 
-    namespace App;
+namespace App;
 
-    /**
-     * Quick Upper Test
+/**
+     * Quick Upper Test.
      */
     class Upper
     {
-
         /**
-         * Heading
+         * Heading.
+         *
          * @var string
          */
         public $heading;
